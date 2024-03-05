@@ -1,4 +1,4 @@
-# Front-end Test - Zion/Dunamis
+# Front-end Test by Zion/Dunamis
 
 Este é um projeto de teste para avaliação de habilidades no desenvolvimento de front-end, utilizando Next.js, Tailwind CSS e outras tecnologias complementares. O objetivo principal é criar uma aplicação que liste os serviços oferecidos por uma barbearia, permitindo a filtragem, tratamento de cenários de erro e carregamento da página, além de criar uma rota para exibir detalhes do serviço quando selecionado.
 
