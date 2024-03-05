@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Front-end Test - Zion/Dunamis
 
-## Getting Started
+Este é um projeto de teste para avaliação de habilidades no desenvolvimento de front-end, utilizando Next.js, Tailwind CSS e outras tecnologias complementares. O objetivo principal é criar uma aplicação que liste os serviços oferecidos por uma barbearia, permitindo a filtragem, tratamento de cenários de erro e carregamento da página, além de criar uma rota para exibir detalhes do serviço quando selecionado.
 
-First, run the development server:
+## Layout do Card
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Card de Serviço](image.png).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O layout do card deve ser seguido conforme a imagem acima, proporcionando uma experiência visual agradável para o usuário.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades Principais
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1.  Listagem de Serviços
 
-## Learn More
+    - Exibir uma lista dos serviços oferecidos pela barbearia.
+    - Cada serviço deve ser representado por um card com a imagem, nome e breve descrição.
 
-To learn more about Next.js, take a look at the following resources:
+2.  Filtragem de Serviços:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    - Incluir um campo de busca para filtrar os serviços conforme o usuário digita.
+    - Os resultados devem ser atualizados em tempo real, sem a necessidade de recarregar a página.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3.  Tratamento de Cenários de Erro:
 
-## Deploy on Vercel
+    - Lidar com situações de erro, como falhas na busca por serviços ou falhas na conexão com a API.
+    - Apresentar mensagens amigáveis ao usuário para indicar problemas e orientá-lo sobre como proceder.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4.  Carregamento da Página:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    - Proporcionar uma experiência de carregamento suave e amigável para o usuário.
+    - Utilizar indicadores visuais para informar o estado de carregamento da página ou de operações assíncronas.
+
+5.  Extras:
+
+    - Ao clicar em um serviço, criar uma nova rota para exibir detalhes específicos desse serviço.
+    - Os detalhes podem incluir informações mais detalhadas, imagens adicionais, preços, etc.
+
+## Tecnologias Utilizadas
+
+- Next.js: Framework React para aplicações web.
+- Tailwind CSS: Framework de estilização CSS utilitária para uma abordagem eficiente e consistente.
+- Outras Tecnologias Necessárias: Pode-se utilizar outras bibliotecas e ferramentas conforme necessário para atingir os objetivos propostos.
+
+## Como Iniciar o Projeto
+
+1. Clone este repositório.
+2. Instale as dependências utilizando o comando `npm install` ou `yarn install`.
+3. Execute o projeto localmente com `npm run dev` ou `yarn dev`.
+
+## Considerações Finais
+
+Este teste não apenas avalia suas habilidades técnicas, mas também sua capacidade de criar uma aplicação intuitiva e de fácil utilização. Sinta-se à vontade para adicionar melhorias e personalizações, mostrando seu estilo e criatividade.
