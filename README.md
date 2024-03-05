@@ -4,7 +4,7 @@ Este é um projeto de teste para avaliação de habilidades no desenvolvimento d
 
 ## Layout do Card
 
-![Card de Serviço](image.png).
+![Card de Serviço](image.png)
 
 O layout do card deve ser seguido conforme a imagem acima, proporcionando uma experiência visual agradável para o usuário.
 
